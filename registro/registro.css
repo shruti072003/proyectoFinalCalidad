@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background: #12135B;
+    font-family: 'Urbanist', sans-serif;
+}
+
+header img {
+	width: 18rem;
+	height: auto;
+	margin: 1rem 1rem 0 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    margin: auto;
+    padding-right: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Componente de formulario */
+
+.left {
+	font-family: 'Inter', sans-serif;
+    width: 23.25rem;
+    
+    border-radius: 25px;
+    padding: 18px 30px 30px 30px;
+    margin: 0 2.5rem 1rem 2.5rem;
+    color: #12135B;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.left p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #FB0606;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 93%;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    height: 1.8rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: 1.5px solid #1C1B77;
+}
+
+.error {
+    color:#FB0606;
+    margin-top: 10px;
+}
+
+button {
+    width: 12rem;
+    height: 2.7rem;
+    border-radius: 20px;
+    border: none;
+    background: #24CFCC;
+    color: #FFFCFC;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1.5px solid #24CFCC;
+    background-color: white;
+    color: #24CFCC;
+    transition: 0.2s;
+}
+
+h4 {
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #24CFCC;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #EE5D63;
+}
+
+/* Componente ilustrativo */
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 51.5%;
+    /* margin-bottom: 22rem; */
+}
+
+.rojo {
+    color: #EE5D63;
+}
+
+.amarillo {
+    color: #FEBD41;
+}
+
+.registro_img {
+    bottom: 0px;
+    right: 53%;
+    width: 25.75rem;
+    height: 26.6875rem;
+}

@@ -1,0 +1,228 @@
+/*** Styling general de la pagina ***/
+body {
+    margin: 0;
+    background: #12135B;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*** Navbar ***/
+
+/* Upper Navbar */
+
+.upper_nav {
+    display: flex;
+    gap: 25rem;
+    width: auto;
+    background: rgba(67, 216, 213, 0.73);
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling del logo */
+.left img {
+	width: 15rem;
+	height: auto;
+}
+
+/* Styling del search bar */
+.left {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 2rem;
+    margin-left: 1rem;
+    padding: 0 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search input {
+    font-size: 16px;
+    width: 20rem;
+    height: 2rem;
+    padding: 0 10px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #12135B;
+}
+
+.search_icon {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.search img {
+    width: 1.09rem;
+    height: 1.0rem;
+}
+
+/* Styling de los iconos */
+.right {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.right img {
+    width: 1.6rem;
+    height: 1.7rem;
+}
+
+
+/* Lower Navbar */
+.lower_nav {
+    width: 100%;
+    margin: 1rem 0;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.lower_nav ul {
+    width: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+/* Configuracion de los a tags en el lower navbar  */
+.lower_nav a {
+	font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.lower_nav a:hover {
+    background-color: #EE5D63;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+/*** Contenido Principal: Body ***/
+section {
+    margin: 1rem 3rem 6rem 3rem;
+}
+
+.contenido {
+    display: flex;
+    gap: 3rem;
+}
+/*styling de los componentes*/
+.componente {
+    height: 28rem;
+    width: 19rem;
+    color: #12135B;
+    margin-top: 1.5rem;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.componente img {
+	width: 100%;
+	height: 50%;
+}
+
+.componente h3 {
+	color: #EE5D63;
+}
+.componente p {
+    width: 100%;
+    text-align: left;
+}
+
+.desc {
+    font-size: small;
+    color: #12135B;
+    text-align: left ;
+
+}
+
+.componente a {
+    color: #FB0606;
+    font-weight: 700;
+}
+/*Styling del botón Regresar*/
+  
+  .button {
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    position: absolute;
+    top: 787px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 9px 17px;
+    border-radius: 15px;
+    background-color: rgb(252, 148, 30);
+
+  }
+  
+  .button:hover {
+  	cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*** Footer ***/
+footer {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 55px;
+    font-size: 14px;
+    color: #ffffffd0;
+    padding: 25px;
+    background: rgba(67, 216, 213, 0.73);
+}
+
+.menu ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none; 
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffffd0;
+}
+
+.menu a:hover {
+    font-weight: 700;
+} 
+
+.logout {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 9px 17px;
+    border-radius: 15px;
+    background-color: #EE5D63;
+}
+
+.logout:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

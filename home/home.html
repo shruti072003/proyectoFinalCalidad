@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="home.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Componente Navbar -->
+    <nav>
+        <div class="upper_nav">
+            <div class="left">
+                <img src="../assets/logo2.png" alt="logo">
+                <!-- Componente de búsqueda -->
+                <form action="https://google.com/search" method="get" target="_blank" class="search">
+                    <img src="../assets/google_icon.png" alt="google_icon">
+                    <input type="text" placeholder="Buscar" name="q">
+                    <button type="submit" class="search_icon"><img src="../assets/search.svg" alt="search_icon"></button>
+                </form>
+            </div>
+            <div class="right">
+                <a href="https://www.facebook.com/profile.php?id=100094068065353&sk=about"><img src="../assets/facebook.svg" class="svg-icon" alt="facebook"></a>
+                <a href="https://www.instagram.com/solocienci4/"><img src="../assets/instagram.svg" alt="instagram"></a>
+            </div>
+        </div>
+        <div class="lower_nav">
+            <ul>
+                <li><a href="../home/home.html">Home</a></li>
+                <li><a href="../formularios/formularioCiencias.jsp">Ciencias Naturales</a></li>
+                <li><a href="../formularios/formularioQuimica.jsp">Química y Biología</a></li>
+                <li><a href="../formularios/formularioProgramacion.jsp">Programación</a></li>
+                <li><a href="../referencias/referencias.html">Referencias</a></li>
+                <li><a href="../contactenos/contactenos.html">Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Componente del contenido principal -->
+    <section>
+        <h2>Avances científicos en la rama de la Medicina</h2>
+        <div class="contenido">
+            <div class="componente">
+                <h3>La terapia génica con tecnología CRISPR</h3>
+                <iframe src="https://www.youtube.com/embed/1eSgQqodRlM" class="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Para conocer más sobre este tema, haga <a href="https://gacetamedica.com/investigacion/la-terapia-genica-con-tecnologia-crispr-una-opcion-terapeutica-para-las-enfermedades-raras/" target="_blank">Click Aquí</a></p>
+            </div>
+            <div class="componente">
+                <h3>Diagnóstico asistido por Inteligencia Artificial</h3>
+                <video class="video" controls>
+                	<source src="https://www.puntoclinico.com.mx/images/videos/DiagnosticoAsisitidoxIA.mp4?638efcff">
+                </video>
+                <p>Para conocer más sobre este tema, haga <a href="https://www.puntoclinico.com.mx/diagnostico-asistido-por-inteligencia-artificial" target="_blank">Click Aquí</a></p>
+            </div>
+            <div class="componente">
+                <h3>Implante cerebral para restablecer la función motora</h3>
+                <iframe src="https://www.youtube.com/embed/64QcrFdHeS4" class="video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Para conocer más sobre este tema, haga <a href="https://www.forbes.com.mx/un-implante-cerebral-nos-acerca-a-volvernos-cyborgs/" target="_blank">Click Aquí</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="menu">
+            <ul>
+                <li><a href="../home/home.html">Home</a></li>
+                <li><a href="../formularios/formularioCiencias.jsp">Ciencias Naturales</a></li>
+                <li><a href="../formularios/formularioQuimica.jsp">Química y Biología</a></li>
+                <li><a href="../formularios/formularioProgramacion.jsp">Programación</a></li>
+                <li><a href="../referencias/referencias.html">Referencias</a></li>
+                <li><a href="../contactenos/contactenos.html">Contáctanos</a></li>
+            </ul>
+        </div>
+        <p>©2023</p>
+        <a href="../login/login.jsp" class="logout">Logout</a>
+    </footer>
+</body>
+</html>
