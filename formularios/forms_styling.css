@@ -130,7 +130,7 @@ span{
     flex-direction: column;
     margin-left: 8%;
     #componente{
-    	font-family: 'Urbanist';
+    	font-family: 'Urbanist', sans-serif;
     	font-weight: 500;
     	font-size: 15px;
         width: 450px;
@@ -173,8 +173,7 @@ a#submit-a{
     margin: 20px 0 0 0;
     padding-top: 5.5px;
     font-size: 19px;
-    font-family: 'Urbanist';
-    font-weight: 500;
+    font-family: 'Urbanist', sans-serif;
     border: solid 2px #1C1B77;
     background-color: #FF7900;
     color: white;
